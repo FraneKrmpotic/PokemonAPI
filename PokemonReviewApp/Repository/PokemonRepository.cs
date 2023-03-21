@@ -1,4 +1,5 @@
-﻿using PokemonReviewApp.Data;
+﻿using AutoMapper;
+using PokemonReviewApp.Data;
 using PokemonReviewApp.Interfaces;
 using PokemonReviewApp.Models;
 
@@ -7,9 +8,12 @@ namespace PokemonReviewApp.Repository
     public class PokemonRepository : IPokemonRepository
     {
         public readonly DataContext _context;
-        public PokemonRepository(DataContext context)
+        private readonly IMapper _mapper;
+
+        public PokemonRepository(DataContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         public Pokemon GetPokemon(int id)
