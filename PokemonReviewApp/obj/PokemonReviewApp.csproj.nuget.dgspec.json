@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fkrmpotic\\source\\repos\\PokemonReviewApp\\PokemonAPI\\PokemonReviewApp\\PokemonReviewApp.csproj": {}
+    "C:\\Users\\38595\\EdukacijaPosao\\PokemonAPI\\PokemonReviewApp\\PokemonReviewApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fkrmpotic\\source\\repos\\PokemonReviewApp\\PokemonAPI\\PokemonReviewApp\\PokemonReviewApp.csproj": {
+    "C:\\Users\\38595\\EdukacijaPosao\\PokemonAPI\\PokemonReviewApp\\PokemonReviewApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fkrmpotic\\source\\repos\\PokemonReviewApp\\PokemonAPI\\PokemonReviewApp\\PokemonReviewApp.csproj",
+        "projectUniqueName": "C:\\Users\\38595\\EdukacijaPosao\\PokemonAPI\\PokemonReviewApp\\PokemonReviewApp.csproj",
         "projectName": "PokemonReviewApp",
-        "projectPath": "C:\\Users\\fkrmpotic\\source\\repos\\PokemonReviewApp\\PokemonAPI\\PokemonReviewApp\\PokemonReviewApp.csproj",
-        "packagesPath": "C:\\Users\\fkrmpotic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fkrmpotic\\source\\repos\\PokemonReviewApp\\PokemonAPI\\PokemonReviewApp\\obj\\",
+        "projectPath": "C:\\Users\\38595\\EdukacijaPosao\\PokemonAPI\\PokemonReviewApp\\PokemonReviewApp.csproj",
+        "packagesPath": "C:\\Users\\38595\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\38595\\EdukacijaPosao\\PokemonAPI\\PokemonReviewApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fkrmpotic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\38595\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -93,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
