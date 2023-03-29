@@ -33,7 +33,6 @@ namespace PokemonReviewApp.Repository
         public ICollection<Pokemon> GetPokemonByCategory(int categoryId)
         {
             return _context.PokemonCategories.Where(e => e.CategoryId == categoryId).Select(c => c.Pokemon).ToList();
-<<<<<<< HEAD
         }
 
         public bool CreateCategory(Category category)
@@ -47,8 +46,12 @@ namespace PokemonReviewApp.Repository
         {
             var saved = _context.SaveChanges();
             return saved > 0 ? true : false;  
-=======
->>>>>>> 3abb30784c45f3d9e26131324993b6da1549d993
+        }
+
+        public bool UpdateCategory(Category category)
+        {
+            _context.Update(category);
+            return Save();
         }
     }
 }
